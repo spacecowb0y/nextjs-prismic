@@ -1,0 +1,7 @@
+@use 'typography' as t;
+
+.container {
+  h1 {
+    @include t.title;
+  }
+}
